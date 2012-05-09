@@ -9,16 +9,16 @@ with for fun. Take them with a grain of salt.
 
 ### Arrays
 
-Array
+* Array
 
 ## Algorithms
 
 ### Sorting
 
-Bubble sort
-Quicksort
-Insertion sort
-Tree sort
-Merge sort
-Radix sort
-Heapsort
+* Bubble sort
+* Quicksort
+* Insertion sort
+* Tree sort
+* Merge sort
+* Radix sort
+* Heapsort
