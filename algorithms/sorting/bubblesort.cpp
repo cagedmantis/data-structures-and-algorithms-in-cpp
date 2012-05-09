@@ -12,12 +12,12 @@ void bubbleSort( std::vector<T> &vec)
   while(swapped)
     {
       swapped = false;
-      for (int i = 0; i < vec.size()-1; ++i)
+      for (size_t index = 0; index < vec.size()-1; ++index)
         {
-          if ( vec[i] > vec[i+1] )
+          if ( vec[index] > vec[index+1] )
             {
               swapped = true;
-              std::swap( vec[i], vec[i+1] );
+              std::swap( vec[index], vec[index+1] );
             }
         }
     }
