@@ -1,11 +1,11 @@
-// Algorithm: Insertion Sort
+// Algorithm: Selection Sort
 // Complexity: O(n^2)
 
 #include <vector>
 #include <iostream>
 
 template <typename T>
-void insertionSort( std::vector<T> &vec)
+void selectionSort( std::vector<T> &vec)
 {
   for (size_t index1 = 0; index1 < vec.size(); ++index1)
     {
